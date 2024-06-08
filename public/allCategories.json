@@ -1,0 +1,115 @@
+[
+    {
+        "_id": "1",
+        "name": "Vegetables",
+        "imagePath" : "/assets/images/dashboard/tomato.png",
+        "description": "Some text about the...",
+        "products": "24",
+        "status": "Active"    
+    },
+    {
+        "_id": "2",
+        "name": "Vegetables",
+        "imagePath" : "/assets/images/dashboard/tomato.png",
+        "description": "Some text about the...",
+        "products": "24",
+        "status": "Active"    
+    },
+    {
+        "_id": "3",
+        "name": "Vegetables",
+        "imagePath" : "/assets/images/dashboard/tomato.png",
+        "description": "Some text about the...",
+        "products": "24",
+        "status": "Active"    
+    },
+    {
+        "_id": "4",
+        "name": "Vegetables",
+        "imagePath" : "/assets/images/dashboard/tomato.png",
+        "description": "Some text about the...",
+        "products": "24",
+        "status": "Active"    
+    },
+    {
+        "_id": "5",
+        "name": "Vegetables",
+        "imagePath" : "/assets/images/dashboard/tomato.png",
+        "description": "Some text about the...",
+        "products": "24",
+        "status": "Active"    
+    },
+    {
+        "_id": "6",
+        "name": "Vegetables",
+        "imagePath" : "/assets/images/dashboard/tomato.png",
+        "description": "Some text about the...",
+        "products": "24",
+        "status": "Active"    
+    },
+    {
+        "_id": "7",
+        "name": "Vegetables",
+        "imagePath" : "/assets/images/dashboard/tomato.png",
+        "description": "Some text about the...",
+        "products": "24",
+        "status": "Active"    
+    },
+    {
+        "_id": "8",
+        "name": "Vegetables",
+        "imagePath" : "/assets/images/dashboard/tomato.png",
+        "description": "Some text about the...",
+        "products": "24",
+        "status": "Active"    
+    },
+    {
+        "_id": "9",
+        "name": "Vegetables",
+        "imagePath" : "/assets/images/dashboard/tomato.png",
+        "description": "Some text about the...",
+        "products": "24",
+        "status": "Active"    
+    },
+    {
+        "_id": "10",
+        "name": "Vegetables",
+        "imagePath" : "/assets/images/dashboard/tomato.png",
+        "description": "Some text about the...",
+        "products": "24",
+        "status": "Active"    
+    },
+    {
+        "_id": "7",
+        "name": "Vegetables",
+        "imagePath" : "/assets/images/dashboard/tomato.png",
+        "description": "Some text about the...",
+        "products": "24",
+        "status": "Active"    
+    },
+    {
+        "_id": "8",
+        "name": "Vegetables",
+        "imagePath" : "/assets/images/dashboard/tomato.png",
+        "description": "Some text about the...",
+        "products": "24",
+        "status": "Active"    
+    },
+    {
+        "_id": "9",
+        "name": "Vegetables",
+        "imagePath" : "/assets/images/dashboard/tomato.png",
+        "description": "Some text about the...",
+        "products": "24",
+        "status": "Active"    
+    },
+    {
+        "_id": "10",
+        "name": "Vegetables",
+        "imagePath" : "/assets/images/dashboard/tomato.png",
+        "description": "Some text about the...",
+        "products": "24",
+        "status": "Active"    
+    }
+    
+]

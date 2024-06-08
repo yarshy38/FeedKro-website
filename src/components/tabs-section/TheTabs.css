@@ -1,0 +1,11 @@
+.tab{
+    padding-bottom: 50px;
+    border-bottom-width: 5px;
+    color: #BBC5D5;
+}
+.tab:is(input:checked){
+    border-bottom-color: #FFA101;
+    border-bottom-width: 5px;
+    padding-bottom: 50px;
+    color: #11141A;
+}

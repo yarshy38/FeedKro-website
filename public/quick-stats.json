@@ -1,0 +1,44 @@
+[
+    {
+        "_id": "1",
+        "title": "Total Categories",
+        "statistic": "28,345",
+        "color": "#11141A"
+    },
+    {
+        "_id": "2",
+        "title": "Registered Products",
+        "statistic": "15,234",
+        "color": "#4B53BC"
+    },
+    {
+        "_id": "3",
+        "title": "Active Products",
+        "statistic": "12,432",
+        "color": "#2DA157"
+    },
+    {
+        "_id": "4",
+        "title": "Inactive Products",
+        "statistic": "200",
+        "color": "#FAAE4B"
+    },
+    {
+        "_id": "5",
+        "title": "Hot Selling Products",
+        "statistic": "12034",
+        "color": "#FE5555"
+    },
+    {
+        "_id": "6",
+        "title": "Hot Regions",
+        "statistic": "12034",
+        "color": "#A06CD4"
+    },
+    {
+        "_id": "7",
+        "title": "Date",
+        "statistic": "04/10/2023",
+        "color": "#000000"
+    }
+]
