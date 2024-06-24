@@ -76,7 +76,7 @@ import NewNotificationPartner from "../Pages/Partner Pages/NewNotificationPartne
 import SpAffiliateOrderDetail from "../Pages/Partner Pages/SpAffiliateOrderDetail";
 import CpAffiliateOrderDetail from "../Pages/Partner Pages/CpAffiliateOrderDetail";
 import SpAffiliateOrderDetail2 from "../Pages/Partner Pages/SpAffiliateOrderDetail2";
-import PartnerSupport from "../Pages/Partner Pages/partnerSupport";
+// import PartnerSupport from "../Pages/Partner Pages/partnerSupport";
 import PartnerChat from "../Pages/Partner Pages/PartnerChat";
 import PartnerMain from "../layout/PartnerMain";
 import VendorMain from "../layout/VendorMain";
@@ -146,75 +146,75 @@ const router = createBrowserRouter([
             },
             {
                 path: '/add-new',
-                element: <AddNewProduct/>
+                element: <AddNewProduct />
             },
             {
                 path: '/sale',
-                element: <ProductSale/>
+                element: <ProductSale />
             },
             {
                 path: '/product',
-                element: <ProductHistory/>
+                element: <ProductHistory />
             },
             {
                 path: '/his',
-                element: <BatchHistory2/>
+                element: <BatchHistory2 />
             },
             {
                 path: '/batchHistory',
-                element: <BatchHistoryDetails/>
+                element: <BatchHistoryDetails />
             },
             {
                 path: '/allRegisteredCoustomers',
-                element: <AllRegisteredCoustomers/>
+                element: <AllRegisteredCoustomers />
             },
             {
                 path: '/coustomerProfile',
-                element: <CustomerProfile/>
+                element: <CustomerProfile />
             },
             {
                 path: '/coustomerAffiliateList',
-                element: <CustomerAffiliateList/>
+                element: <CustomerAffiliateList />
             },
             {
                 path: '/coustomerAffiliateDetails',
-                element: <CustomerAffiliateDetails/>
+                element: <CustomerAffiliateDetails />
             },
             {
                 path: '/coustomerAffiliateOrderList',
-                element: <CustomerAffiliateOrderList/>
+                element: <CustomerAffiliateOrderList />
             },
             {
                 path: '/coustomerAffiliateOrderListDetails',
-                element: <CustomerAffiliateOrderDetails/>
+                element: <CustomerAffiliateOrderDetails />
             },
             {
                 path: '/notificationList',
-                element: <NotificationList/>
+                element: <NotificationList />
             },
             {
                 path: '/newnotification',
-                element: <NewNotification/>
+                element: <NewNotification />
             },
             {
                 path: '/productswithreviewlist',
-                element: <ProductWithReviewList/>
+                element: <ProductWithReviewList />
             },
             {
                 path: '/productsreveiws',
-                element: <ProductsReviews/>
+                element: <ProductsReviews />
             },
             {
                 path: '/allfaqs',
-                element: <AllFaqsList/>
+                element: <AllFaqsList />
             },
             {
                 path: '/addnewfaq',
-                element: <AddNewFaqPartner/>
+                element: <AddNewFaqPartner />
             },
             {
                 path: '/delivery',
-                element: <DeliverySchedule/>
+                element: <DeliverySchedule />
             },
             {
                 path: '/customer',
@@ -234,51 +234,51 @@ const router = createBrowserRouter([
             },
             {
                 path: '/rider/order-detail',
-                element: <RidersOrderdetail/>
+                element: <RidersOrderdetail />
             },
             {
                 path: '/rider/register',
-                element: <RegisterRiders/>
+                element: <RegisterRiders />
             },
             {
                 path: '/rider/profile',
-                element: <RiderProfile/>
+                element: <RiderProfile />
             },
             {
                 path: '/rider/application',
-                element: <NewApplications/>
+                element: <NewApplications />
             },
             {
                 path: '/rider/app-details',
-                element: <RiderAppdetails/>
+                element: <RiderAppdetails />
             },
             {
                 path: '/rider/wallet',
-                element: <RidersWallet/>
+                element: <RidersWallet />
             },
             {
                 path: '/rider/wallet-detail',
-                element: <RiderwaletDetail/>
+                element: <RiderwaletDetail />
             },
             {
                 path: '/rider/transaction-detail',
-                element: <RidertransactionDetail/>
+                element: <RidertransactionDetail />
             },
             {
                 path: '/rider/request',
-                element: <TransactionRequest/>
+                element: <TransactionRequest />
             },
             {
                 path: '/rider/request-detail',
-                element: <TransactionRequestdetail/>
+                element: <TransactionRequestdetail />
             },
             {
                 path: '/rider/history',
-                element: <OrderHistory/>
+                element: <OrderHistory />
             },
             {
                 path: '/rider/orderdetail',
-                element: <OrderDetails/>
+                element: <OrderDetails />
             },
             {
                 path: '/rider/faq',
@@ -302,338 +302,338 @@ const router = createBrowserRouter([
             },
             {
                 path: '/rider/chat',
-                element: <Chat/>
+                element: <Chat />
             }
-            
+
         ]
-        
+
     },
     {
-        
-            path: 'partner',
-            element: <PartnerMain />,
-            children: [
-                {
-                    path: '',
-                    element: <PartnerDashboard />
-                },
 
-                {
-                    path: 'custompartner',
-                    element: <CustomerPartners />
-                },
-                {
-                    path: 'custompartner/cpaffiliates',
-                    element: <CpAffiliates />
-                },
-                {
-                    path: 'custompartner/cpaffiliates/affiliatesorder',
-                    element: <AffiliatesOrder />
-                },
-                {
-                    path: 'custompartner/cpaffiliates/affiliatesorder/cpaffiliateorderdetails',
-                    element: <CpAffiliateOrderDetail />
-                },
-                {
-                    path: 'salepartner',
-                    element: <SalePartner />
-                },
-                {
-                    path: 'salepartner/spaffiliates',
-                    element: < SpAffiliates/>
-                },
-                {
-                    path: 'salepartner/spaffiliates/spaffiliateorder2',
-                    element: <SpAffiliateOrder2 />
-                },
-                {
-                    path: 'salepartner/spaffiliates/spaffiliateorder2/spaffiliateorderdetail',
-                    element: <SpAffiliateOrderDetail />
-                },
-                {
-                    path: 'primesalepartner',
-                    element: <PrimeSalePartner />
-                },
-                {
-                    path: 'primesalepartner/spaffiliates2',
-                    element: < SpAffiliates2/>
-                },
-                {
-                    path: 'primesalepartner/spaffiliates2/spaffiliatesorder',
-                    element: < SpAffiliatesOrder/>
-                },
-                {
-                    path: 'primesalepartner/spaffiliates2/spaffiliatesorder/spaffiliateorderdetail2',
-                    element: <SpAffiliateOrderDetail2 />
-                },
-                {
-                    path: 'register',
-                    element: <Register />
-                },
-                {
-                    path: 'register/partnerprofile',
-                    element: <PartnerProfile />
-                },
-                {
-                    path: 'newapplication',
-                    element: <NewApplication />
-                },
-                {
-                    path: 'newapplication/partnerappdetails',
-                    element: <PartnerAppDetails />
-                },
+        path: 'partner',
+        element: <PartnerMain />,
+        children: [
+            {
+                path: '',
+                element: <PartnerDashboard />
+            },
 
-                {
-                    path: 'partnerleaderboard',
-                    element: <PartnerLeaderboard />
-                },
-                {
-                    path: 'partneraffiliate',
-                    element: <PartnerAffiliate />
-                },
-                {
-                    path: 'partneraffiliate/partnerafforder',
-                    element: <PartnerAffOrder />
-                },
-                {
-                    path: 'partneraffiliate/partnerafforder/parnterafforderdetails',
-                    element: <PartnerAffOrdDetail />
-                },
-                {
-                    path: 'partnerwallet',
-                    element: <PartnerWallet />
-                },
-                {
-                    path: 'partnerwallet/partnerwalletdetail',
-                    element: <PartnerWalletDetail />
-                },
-                {
-                    path: 'partnerwallet/partnerwalletdetail/partnertransacdetail',
-                    element: <PartnerTransacDetail />
-                },
-                {
-                    path: 'transactionrequest',
-                    element: <TransactionRequestPartner />
-                },
-                {
-                    path: 'transactionrequest/transacrequestdetail',
-                    element: < TransacRequestdetail/>
-                },
-                {
-                    path: 'notification',
-                    element: <NotificationPartner />
-                },
-                {
-                    path: 'newnotification',
-                    element: <NewNotificationPartner />
-                },
-                {
-                    path: 'addpartnerfaq',
-                    element: <AddNewFaqPartner />
-                },
-                {
-                    path: 'allfaqs',
-                    element: <AllFaqs />
-                },
-                {
-                    path: 'partnersupport',
-                    element: <PartnerSupport/>
-                },
-                {
-                    path: 'partnersupport/partnerchat',
-                    element: <PartnerChat/>
-                }
-                // {
-                //     path: 'cpaffiliates',
-                //     element: <CpAffiliates />
-                // },
+            {
+                path: 'custompartner',
+                element: <CustomerPartners />
+            },
+            {
+                path: 'custompartner/cpaffiliates',
+                element: <CpAffiliates />
+            },
+            {
+                path: 'custompartner/cpaffiliates/affiliatesorder',
+                element: <AffiliatesOrder />
+            },
+            {
+                path: 'custompartner/cpaffiliates/affiliatesorder/cpaffiliateorderdetails',
+                element: <CpAffiliateOrderDetail />
+            },
+            {
+                path: 'salepartner',
+                element: <SalePartner />
+            },
+            {
+                path: 'salepartner/spaffiliates',
+                element: < SpAffiliates />
+            },
+            {
+                path: 'salepartner/spaffiliates/spaffiliateorder2',
+                element: <SpAffiliateOrder2 />
+            },
+            {
+                path: 'salepartner/spaffiliates/spaffiliateorder2/spaffiliateorderdetail',
+                element: <SpAffiliateOrderDetail />
+            },
+            {
+                path: 'primesalepartner',
+                element: <PrimeSalePartner />
+            },
+            {
+                path: 'primesalepartner/spaffiliates2',
+                element: < SpAffiliates2 />
+            },
+            {
+                path: 'primesalepartner/spaffiliates2/spaffiliatesorder',
+                element: < SpAffiliatesOrder />
+            },
+            {
+                path: 'primesalepartner/spaffiliates2/spaffiliatesorder/spaffiliateorderdetail2',
+                element: <SpAffiliateOrderDetail2 />
+            },
+            {
+                path: 'register',
+                element: <Register />
+            },
+            {
+                path: 'register/partnerprofile',
+                element: <PartnerProfile />
+            },
+            {
+                path: 'newapplication',
+                element: <NewApplication />
+            },
+            {
+                path: 'newapplication/partnerappdetails',
+                element: <PartnerAppDetails />
+            },
 
-            ]
-        
+            {
+                path: 'partnerleaderboard',
+                element: <PartnerLeaderboard />
+            },
+            {
+                path: 'partneraffiliate',
+                element: <PartnerAffiliate />
+            },
+            {
+                path: 'partneraffiliate/partnerafforder',
+                element: <PartnerAffOrder />
+            },
+            {
+                path: 'partneraffiliate/partnerafforder/parnterafforderdetails',
+                element: <PartnerAffOrdDetail />
+            },
+            {
+                path: 'partnerwallet',
+                element: <PartnerWallet />
+            },
+            {
+                path: 'partnerwallet/partnerwalletdetail',
+                element: <PartnerWalletDetail />
+            },
+            {
+                path: 'partnerwallet/partnerwalletdetail/partnertransacdetail',
+                element: <PartnerTransacDetail />
+            },
+            {
+                path: 'transactionrequest',
+                element: <TransactionRequestPartner />
+            },
+            {
+                path: 'transactionrequest/transacrequestdetail',
+                element: < TransacRequestdetail />
+            },
+            {
+                path: 'notification',
+                element: <NotificationPartner />
+            },
+            {
+                path: 'newnotification',
+                element: <NewNotificationPartner />
+            },
+            {
+                path: 'addpartnerfaq',
+                element: <AddNewFaqPartner />
+            },
+            {
+                path: 'allfaqs',
+                element: <AllFaqs />
+            },
+            {
+                path: 'partnersupport',
+                element: <PartnerSupport />
+            },
+            {
+                path: 'partnersupport/partnerchat',
+                element: <PartnerChat />
+            }
+            // {
+            //     path: 'cpaffiliates',
+            //     element: <CpAffiliates />
+            // },
+
+        ]
+
     },
     {
-        
-            path: 'vendor',
-            element: <VendorMain />,
-            children: [
-                {
-                    path: '',
-                    element: <VendorDashboard />
-                },
-                {
-                    path: 'live-products',
-                    element: <LiveProducts />
-                },
-                {
-                    path: 'live-products/product',
-                    element: <VendorProductDetails />
-                },
-                {
-                    path: 'batch-history',
-                    element: <VendorBatchHistory />
-                },
-                {
-                    path: 'price-update',
-                    element: <VendorPriceUpdate />
-                },
-                {
-                    path: 'batch-update',
-                    element: <VendorBatchUpdate />
-                },
-                {
-                    path: 'batch-update/vendor-update-details',
-                    element: <VendorBatchUpdateDetails />
-                },
-                {
-                    path: 'new-products',
-                    element: <VendorNewProducts />
-                },
-                {
-                    path: 'new-products/new-product-details',
-                    element: <VendorNewProductDetails />
-                },
-                {
-                    path: 'registered',
-                    element: <RegisteredVendors />
-                },
-                {
-                    path: 'registered/details',
-                    element: <VendorDetails />
-                },
-                {
-                    path: 'new-vendors',
-                    element: <NewVendorApplication />
-                },
-                {
-                    path: 'new-vendors/vendor-app-details',
-                    element: <VendorApplicationDetails />
-                },
-                {
-                    path: 'partnerafforder',
-                    element: <PartnerAffOrder />
-                },
-                {
-                    path: 'partnerappdetails',
-                    element: <PartnerAppDetails />
-                },
-                {
-                    path: 'partnerprofile',
-                    element: <PartnerProfile />
-                },
-                {
-                    path: 'partnertransacdetail',
-                    element: <PartnerTransacDetail />
-                },
-                {
-                    path: 'partnerwallet',
-                    element: <PartnerWallet />
-                },
-                {
-                    path: 'partnerwalletdetail',
-                    element: <PartnerWalletDetail />
-                },
-                {
-                    path: 'primesalepartner',
-                    element: <PrimeSalePartner />
-                },
-                {
-                    path: 'register',
-                    element: <Register />
-                },
-                {
-                    path: 'salepartner',
-                    element: <SalePartner />
-                },
-                {
-                    path: 'spaffiliateorder2',
-                    element: <SpAffiliateOrder2 />
-                },
-                {
-                    path: 'spaffiliateorderdetail',
-                    element: <SpAffiliateOrderDetail />
-                },
-                {
-                    path: 'spaffiliateorderdetail2',
-                    element: <SpAffiliateOrderDetail2 />
-                },
-                {
-                    path: 'spaffiliates',
-                    element: < SpAffiliates/>
-                },
-                {
-                    path: 'spaffiliates2',
-                    element: < SpAffiliates2/>
-                },
-                {
-                    path: 'spaffiliatesorder',
-                    element: < SpAffiliatesOrder/>
-                },
-                {
-                    path: 'transacrequestdetail',
-                    element: < TransacRequestdetail/>
-                },
-                {
-                    path: 'transactionrequest',
-                    element: <TransactionRequestPartner />
-                },
-                {
-                    path: 'vendorwallet',
-                    element: <VendorWallet/>
-                },
-                {
-                    path: 'vendorwallet/vendorwalletdetail',
-                    element: <VendorWalletDetail/>
-                },
-                {
-                    path: 'vendorwallet/vendorwalletdetail/vendortransacdetail',
-                    element: <VendorTransacDetail/>
-                },
-                {
-                    path: 'vendorproducthistory',
-                    element:<VendorProductHistory/>
-                },
-                {
-                    path: 'vendorproducthistory/productbatchhistory',
-                    element: <ProductBatchHistory/>
-                },
-                {
-                    path: 'vendorproducthistory/productbatchhistory/vendorbatchdetail',
-                    element:<VendorBatchDetails/>
-                },
-                {
-                    path: 'vendortransacrequest',
-                    element: <VendorTransacRequest/>
-                },
-                {
-                    path: 'vendortransacrequest/vendortransacrequestdetail',
-                    element: <VendorTransacRequestDetail/>
-                },
-                {
-                    path: 'vendorallfaqs',
-                    element: <VendorAllFaqs/>
-                },
-                {
-                    path: 'vendoraddnewfaq',
-                    element: <VendorAddNewFaq/>
-                },
-                {
-                    path: 'vendornotification',
-                    element: <VendorNotifications/>
-                },
-                {
-                    path: 'vendornewnotification',
-                    element: <VendorNewNotifications/>
-                },
-                {
-                    path: 'vendorsupport',
-                    element:<VendorSupport/>
-                },
-                {
-                    path: 'vendorsupport/vendorchat',
-                    element: <VendorChat/>
-                },
-            ]
-        
+
+        path: 'vendor',
+        element: <VendorMain />,
+        children: [
+            {
+                path: '',
+                element: <VendorDashboard />
+            },
+            {
+                path: 'live-products',
+                element: <LiveProducts />
+            },
+            {
+                path: 'live-products/product',
+                element: <VendorProductDetails />
+            },
+            {
+                path: 'batch-history',
+                element: <VendorBatchHistory />
+            },
+            {
+                path: 'price-update',
+                element: <VendorPriceUpdate />
+            },
+            {
+                path: 'batch-update',
+                element: <VendorBatchUpdate />
+            },
+            {
+                path: 'batch-update/vendor-update-details',
+                element: <VendorBatchUpdateDetails />
+            },
+            {
+                path: 'new-products',
+                element: <VendorNewProducts />
+            },
+            {
+                path: 'new-products/new-product-details',
+                element: <VendorNewProductDetails />
+            },
+            {
+                path: 'registered',
+                element: <RegisteredVendors />
+            },
+            {
+                path: 'registered/details',
+                element: <VendorDetails />
+            },
+            {
+                path: 'new-vendors',
+                element: <NewVendorApplication />
+            },
+            {
+                path: 'new-vendors/vendor-app-details',
+                element: <VendorApplicationDetails />
+            },
+            {
+                path: 'partnerafforder',
+                element: <PartnerAffOrder />
+            },
+            {
+                path: 'partnerappdetails',
+                element: <PartnerAppDetails />
+            },
+            {
+                path: 'partnerprofile',
+                element: <PartnerProfile />
+            },
+            {
+                path: 'partnertransacdetail',
+                element: <PartnerTransacDetail />
+            },
+            {
+                path: 'partnerwallet',
+                element: <PartnerWallet />
+            },
+            {
+                path: 'partnerwalletdetail',
+                element: <PartnerWalletDetail />
+            },
+            {
+                path: 'primesalepartner',
+                element: <PrimeSalePartner />
+            },
+            {
+                path: 'register',
+                element: <Register />
+            },
+            {
+                path: 'salepartner',
+                element: <SalePartner />
+            },
+            {
+                path: 'spaffiliateorder2',
+                element: <SpAffiliateOrder2 />
+            },
+            {
+                path: 'spaffiliateorderdetail',
+                element: <SpAffiliateOrderDetail />
+            },
+            {
+                path: 'spaffiliateorderdetail2',
+                element: <SpAffiliateOrderDetail2 />
+            },
+            {
+                path: 'spaffiliates',
+                element: < SpAffiliates />
+            },
+            {
+                path: 'spaffiliates2',
+                element: < SpAffiliates2 />
+            },
+            {
+                path: 'spaffiliatesorder',
+                element: < SpAffiliatesOrder />
+            },
+            {
+                path: 'transacrequestdetail',
+                element: < TransacRequestdetail />
+            },
+            {
+                path: 'transactionrequest',
+                element: <TransactionRequestPartner />
+            },
+            {
+                path: 'vendorwallet',
+                element: <VendorWallet />
+            },
+            {
+                path: 'vendorwallet/vendorwalletdetail',
+                element: <VendorWalletDetail />
+            },
+            {
+                path: 'vendorwallet/vendorwalletdetail/vendortransacdetail',
+                element: <VendorTransacDetail />
+            },
+            {
+                path: 'vendorproducthistory',
+                element: <VendorProductHistory />
+            },
+            {
+                path: 'vendorproducthistory/productbatchhistory',
+                element: <ProductBatchHistory />
+            },
+            {
+                path: 'vendorproducthistory/productbatchhistory/vendorbatchdetail',
+                element: <VendorBatchDetails />
+            },
+            {
+                path: 'vendortransacrequest',
+                element: <VendorTransacRequest />
+            },
+            {
+                path: 'vendortransacrequest/vendortransacrequestdetail',
+                element: <VendorTransacRequestDetail />
+            },
+            {
+                path: 'vendorallfaqs',
+                element: <VendorAllFaqs />
+            },
+            {
+                path: 'vendoraddnewfaq',
+                element: <VendorAddNewFaq />
+            },
+            {
+                path: 'vendornotification',
+                element: <VendorNotifications />
+            },
+            {
+                path: 'vendornewnotification',
+                element: <VendorNewNotifications />
+            },
+            {
+                path: 'vendorsupport',
+                element: <VendorSupport />
+            },
+            {
+                path: 'vendorsupport/vendorchat',
+                element: <VendorChat />
+            },
+        ]
+
     }
 
 
