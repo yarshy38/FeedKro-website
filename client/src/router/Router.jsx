@@ -435,10 +435,10 @@ const router = createBrowserRouter([
                 path: 'allfaqs',
                 element: <AllFaqs />
             },
-            {
-                path: 'partnersupport',
-                element: <PartnerSupport />
-            },
+            // {
+            //     path: 'partnersupport',
+            //     element: <PartnerSupport />
+            // },
             {
                 path: 'partnersupport/partnerchat',
                 element: <PartnerChat />
